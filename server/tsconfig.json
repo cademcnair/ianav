@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "outDir": "./out",
+    "removeComments": true,
+    "target": "ES6",
+
+    "baseUrl": "./in",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+
+    "alwaysStrict": true,
+    "allowUnreachableCode": false,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+  },
+  "include": ["./in/*.ts"],
+  "exclude": ["./node_modules/**/*"]
+}
